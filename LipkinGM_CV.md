@@ -1,87 +1,77 @@
-# Gregory Lipkin, MPEI student (4th year, applied maths and CS)
+# Gregory Lipkin, [MPEI](https://mpei.ru) student (4th year, applied maths and CS)
 
-Email: lipkin.grisha@mail.ru
-
-Phone number: +7 (915) 335-5155
-
+E-mail: lipkin.grisha@mail.ru  
+Phone: +7 (915) 335-5155  
 GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
 ## Skills and Scientific Interests
 
 ### Scientific Interests
-- Anything performance-oriented
-- Bit tinkering (memory layout optimizations, performance optimizations based on memory layout)
-- Types
+- Building high performance software
+- Data security
+- Data types
 - Operating systems
 - Compilers
-- Exploration of AI models' capabilities
+- Building AI models
 
-### Knowledge of programming languages:
-| Language  | Knowledge level                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Rust      | 8/10 - can read (and write some) libraries' code (especially those connected to the type system)                               |
-| Python    | 6/10 - can write, but not familiar with stdlib to the core                                                                     |
-| Ruby      | 6/10 - can write, but can't reason well about performance                                                                      |
-| C         | 4/10 - can write, but not familiar with stdlib to the core                                                                     |
-| C++       | 4/10 - can write with little to no use of modern C++ features (std::vector, std::views, etc.), basically, C with classes level |
-| Java      | 4/10 - can write, but still very clunky with it, also having no proper language server setup so autocomplete is working badly  |
-| BASH      | 3/10 - can use and write basic functions, when things get complicated, prefer to stay with different languages                 |
-| C#        | 3/10 - can write on Windows, not on Linux, didn't have the experience of using libraries                                       |
-| Lua       | 2/10 - can write basic functions, when things get complicated, prefer different languages (used in NVIM configuration)         |
-| nushell   | 2/10 - can use and write very basic functions, when things get complicated, prefer to stay with different languages            |
-| Pascal    | 1/10 - can write very basic functions, didn't have the experience of using libraries                                           |
+**Knowledge of programming languages**: Rust 8/10, Python 6/10, Ruby 6/10, C 5/10, C++ 5/10, Java 5/10, BASH 4/10, C# 4/10, Lua 3/10, nushell 3/10, Pascal 2/10, MS MASM 1/10,
 
-### Basic tools knowledge
-- GIT
-- SSH
-- SCP
-- Grep, find, sed, etc.
-
-### Basic CS knowledge (Is this even needed?)
-> HOW DO I EVEN EXPRESS THAT?!
-
-### OS skills
-- Experience of using Linux practically since birth
+### OS Skills
+- Ubuntu Linux desktop active everyday use since 2011
+- Debian 12 usage on a server
+- Windows family active everyday use since 2018
 
 ## Education
 **2021 - present** - bachelor's in Moscow Power Engineering Institute, Computer Engineering and Computer Science Department
 
-## Professional Honors and Awards:
+Courses:
+
+- Physics - A
+- Mathematical:
+  + Mathematical analysis – C
+  + Complex analysis – B
+  + Differential equations – B
+  + Mathematical statistics – C
+  + Linear algebra and analytical geometry – C
+  + Graphs theory and combinatorial methods – A
+  + Mathematical logic – A
+  + Optimization methods – A
+  + Programming language semantics – B
+  + Theoretical models of computation – A
+- Programming
+  + Languages and methods of programming – A
+  + Data structures and methods of programming – A
+  + Numerical methods – B
+  + Computer graphics – B
+  + Databases – A
+  + Program engineering – A
+  + Architecture of computing systems – C
+  + Systems programming – A
+  + Translator creation basics – B
+  + Operation systems – C
+  + Data security – B 
+  + Data security course project (steganographic system) - B
+  + AI basics – A
 
 ## Professional activities
-**2024** - working on a telecommunication project involving Asterisk DAHDI (previously ZapTel) modules on Debian 12
+**2024** - Telecommunication software modules development for audio conferencing and IVR system based on Asterisk DAHDI libraries for multiport T1/E1 board. Libraries for DACS, conferencies, media record and playback. 
 
-**2024** - Renaissance Bank practice ([Backend, written in Java](https://github.com/LiGM-GH/ren_java_backend))
+**2024** - Renaissance Bank practice (Image recognition for harmful images detection purposes) ([Backend, written in Java](https://github.com/LiGM-GH/ren_java_backend))
 
-**2023** - Renton Hackathon (Rust backend for an example shop)
+**2023** - Renton Hackathon (E-commerce backend application for banking application demonstration)
 
-**2022** - Writing a program in Ruby for interactions with MS Excel for some doctor, as I was told, who had some research on correlation of different diseases
-
-## Internships
+**2022** - Application for medical big data visualization
 
 ## Teaching activities
-**2023** - working at MathsHub as a teaching assistant for a Data Structures and Algorithms course
-
-## Scientific Activity
-
-## Research Publications
-
-## Conference presentations
-
-## Peer-review activity
-
-## Editor-related activity
+**2023** - Teaching assistantship on a Data Structures and Algorithms course at [MathsHub](https://maths-h.com/) - online academy
 
 ## Languages
 
-**English:** TOEFL 90/120
-
+**English:** TOEFL 90/120  
 **Russian:** native.
 
 ## Hobbies
-Playing musical instruments (piano, trumpet);
-5 years of education in a musical school
-
-Sport games (ping pong).
-
-Martial arts (previously, Aikido, also Sambo)
+Playing musical instruments (piano, trumpet)  
+5 years of education in a musical school  
+Sport games (table tennis).  
+Martial arts (Aikido - not currently active)
