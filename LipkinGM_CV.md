@@ -1,4 +1,4 @@
-# Gregory Lipkin, [MPEI](https://mpei.ru) student (4th year, applied maths and CS)
+# Grigorii Lipkin, [MPEI](https://mpei.ru) student (4th year, applied maths and CS)
 
 E-mail: lipkin.grisha@mail.ru  
 Phone: +7 (915) 335-5155  
