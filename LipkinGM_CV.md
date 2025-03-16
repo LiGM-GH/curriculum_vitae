@@ -1,12 +1,11 @@
-# Grigorii Lipkin, [MPEI](https://mpei.ru) student (4th year, applied maths and CS)
+# Grigorii Lipkin
 
 E-mail: lipkin.grisha@mail.ru  
 Phone: +7 (915) 335-5155  
 GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
-## Skills and Scientific Interests
+## Scientific Interests
 
-### Scientific Interests
 - Building high performance software
 - Data security
 - Data types
@@ -14,64 +13,63 @@ GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 - Compilers
 - Building AI models
 
-**Knowledge of programming languages**: Rust 8/10, Python 6/10, Ruby 6/10, C 5/10, C++ 5/10, Java 5/10, BASH 4/10, C# 4/10, Lua 3/10, nushell 3/10, Pascal 2/10, MS MASM 1/10,
-
-### OS Skills
-- Ubuntu Linux desktop active everyday use since 2011
-- Debian 12 usage on a server
-- Windows family active everyday use since 2018
-
 ## Education
-**2021 - present** - bachelor's in Moscow Power Engineering Institute, Computer Engineering and Computer Science Department
 
-Courses:
+**2021 - present** - bachelor's in Moscow Power Engineering Institute [MPEI](https://mpei.ru), Computer Engineering and Computer Science Department, applied maths and CS
 
-- Physics - A
-- Mathematical:
-  + Mathematical analysis – C
-  + Complex analysis – B
-  + Differential equations – B
-  + Mathematical statistics – C
-  + Linear algebra and analytical geometry – C
-  + Graphs theory and combinatorial methods – A
-  + Mathematical logic – A
-  + Optimization methods – A
-  + Programming language semantics – B
-  + Theoretical models of computation – A
-- Programming
-  + Languages and methods of programming – A
-  + Data structures and methods of programming – A
-  + Numerical methods – B
-  + Computer graphics – B
-  + Databases – A
-  + Program engineering – A
-  + Architecture of computing systems – C
-  + Systems programming – A
-  + Translator creation basics – B
-  + Operation systems – C
-  + Data security – B 
-  + Data security course project (steganographic system) - B
-  + AI basics – A
+## Skills
+
+- **Debian 12** professional usage on a server
+- **WinAPI** usage experience in C++
+- **PostgreSQL** database management
+
+**Knowledge of programming languages**: Rust, Python, Ruby, C, C++, Java, BASH, C#, Lua, javascript, nushell, Pascal, MS MASM, Lisp.
 
 ## Professional activities
-**2024** - Telecommunication software modules development for audio conferencing and IVR system based on Asterisk DAHDI libraries for multiport T1/E1 board. Libraries for DACS, conferencies, media record and playback. 
 
-**2024** - Renaissance Bank practice (Image recognition for harmful images detection purposes) ([Backend, written in Java](https://github.com/LiGM-GH/ren_java_backend))
+- **2024**
+  + **Telecommunication** software modules development
+    </br>
+    for **audio conferencing** and IVR system
+    </br>
+    based on **Asterisk DAHDI** libraries for **multiport T1/E1 board**.
+    </br>
+    Libraries for DACS, conferences, media record and playback. 
 
-**2023** - Renton Hackathon (E-commerce backend application for banking application demonstration)
+  + Renaissance Bank practice
+    </br>
+    (**Image recognition** for harmful images detection purposes)
+    </br>
+    ([Backend, written in Java](https://github.com/LiGM-GH/ren_java_backend))
 
-**2022** - Application for medical big data visualization
+- **2023** - Renton Hackathon
+  </br>
+  (E-commerce RESTful backend application
+  </br>
+  for banking application demonstration)
+
+- **2022** - Application for medical big data visualization
 
 ## Teaching activities
-**2023** - Teaching assistantship on a Data Structures and Algorithms course at [MathsHub](https://maths-h.com/) - online academy
+
+- **2023** - Teaching assistantship on a Data Structures and Algorithms course at [MathsHub](https://maths-h.com/) - online academy
 
 ## Languages
 
 **English:** TOEFL 90/120  
 **Russian:** native.
 
-## Hobbies
-Playing musical instruments (piano, trumpet)  
-5 years of education in a musical school  
-Sport games (table tennis).  
-Martial arts (Aikido - not currently active)
+### Learning Projects
+
+- **Steganographic** system employing LSB method;
+- Internet provider call center **database** (**PostgreSQL**)
+  <br/>
+  with user interface using [Iced](https://iced.rs);
+- **Parser** for an abstract pascal-like language;
+- **AI telegram bot** for spam recognition;
+- **Numeric computation** of solution for initial-boundary value problem for the two-dimensional wave equation;
+- Simple **porting** of a prolog and lisp **IDE** from DOS to linux;
+- **Translator** of Pascal comments to XLSX tables;
+- **Lookup program for text** search in **PDF** lections (no OCR)
+- **Lookup script for text** search in **PDF** lections (no OCR)
+
