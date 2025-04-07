@@ -1,18 +1,29 @@
+name := "LipkinGM_CV"
+main_md := name + ".md"
+main_pdf := name + "-md.pdf"
+polling_interval := "500ms"
+stylefile := "style.css"
+
 default:
     just --list
     
+# Open {{main_md}}
 view:
     xdg-open LipkinGM_CV.pdf
 
+# Convert {{main_md}} to PDF and do XDG-open
 run:
-    md2pdf LipkinGM_CV.md LipkinGM_CV-md.pdf --css ./style.css
-    xdg-open LipkinGM_CV-md.pdf
+    md2pdf {{main_md}} {{main_pdf}} --css {{stylefile}}
+    xdg-open {{main_pdf}}
 
+# Watch and update PDF file according to {{main_md}}
 watch:
-    watchexec --poll 500ms -w ./LipkinGM_CV.md 'just update'
+    watchexec --poll {{polling_interval}} -w ./{{main_md}} 'just update'
 
+# Update current PDF using {{main_md}}
 update:
-    md2pdf LipkinGM_CV.md LipkinGM_CV-md.pdf --css ./style.css
+    md2pdf {{main_md}} {{main_pdf}} --css {{stylefile}}
 
+# Convert {{main_md}} to ODT
 to-odt:
-    pandoc -f markdown -t odt ./LipkinGM_CV.md -o ./LipkinGM_CV.odt
+    pandoc -f markdown -t odt {{main_md}} -o ./LipkinGM_CV.odt
