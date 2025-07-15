@@ -9,7 +9,7 @@ default:
     
 # Open {{main_md}}
 view:
-    xdg-open LipkinGM_CV.pdf
+    xdg-open {{main_pdf}}
 
 # Convert {{main_md}} to PDF and do XDG-open
 run:

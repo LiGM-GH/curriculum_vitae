@@ -1,46 +1,48 @@
-# Grigorii Lipkin
+# Григорий Липкин
 
 E-mail: lipkin.grisha@mail.ru  
 Phone: +7 (915) 335-5155  
 GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
-## Scientific Interests
+## Научные интересы
 
-- Building high performance software
-- Data security
-- Data types
-- Operating systems
-- Compilers
-- Building AI models
+- Высокопроизводительные приложения
+- Защита данных
+- Типы данных
+- Операционные системы
+- Компиляторы
+- Создание и обучение моделей искусственного интеллекта
 
-## Education
+## Образование
 
-**2021 - present** - bachelor's in Moscow Power Engineering Institute [MPEI](https://mpei.ru), Computer Engineering and Computer Science Department, applied maths and CS
+**2021 - 2025** - Бакалавриат в Московском Энергетическом Институте [МЭИ](https://mpei.ru), прикладная математика и информатика, информатики и вычислительной техники институт (ИВТИ)
 
-## Skills
+## Умения
 
-- **Debian 12** professional usage on a server
-- **WinAPI** usage experience in C++
-- **PostgreSQL** database management
+- **Debian 12** - профессиональное использование на сервере
+- **WinAPI** - опыт использования на C++
+- **PostgreSQL**
 
-**Knowledge of programming languages**: Rust, Python, Ruby, C, C++, Java, BASH, C#, Lua, javascript, nushell, Pascal, MS MASM, Lisp.
+**Изученные языки программирования**: Rust, Python, Ruby, C, C++, Java, BASH, C#, Lua, javascript, nushell, Pascal, MS MASM, Lisp.
 
-## Professional activities
+## Профессиональная деятельность
 
+- **2025**
+  + **Разработка приложения для аутентификации пользователей по статической рукописной подписи** - выпускная работа бакалавра
 - **2024**
-  + **Telecommunication** software modules development
+  + Разработка **телекоммуникационных** программных модулей
     </br>
-    for **audio conferencing** and IVR system
+    для **аудио-конференций**
     </br>
-    based on **Asterisk DAHDI** libraries for **multiport T1/E1 board**.
+    на базе библиотек **Asterisk DAHDI** для **многопортовой платы T1/E1**.
     </br>
-    Libraries for DACS, conferences, media record and playback. 
+    Библиотеки для DACS, конференций, записи и проигрывания аудио.
     </br>
-    * Language: C/C++
+    * Язык: C/C++
 
-  + Renaissance Bank practice
+  + Практика в банке Ренессанс Кредит
     </br>
-    (**Image recognition** for harmful images detection purposes)
+    (**Распознавание изображений** для фильтрации небезопасных для работы изображений)
     * [Backend](https://github.com/LiGM-GH/ren_java_backend)
       - Java (Spring)
       - Ubuntu
@@ -50,44 +52,47 @@ GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
 - **2023** - Renton Hackathon
   </br>
-  (E-commerce RESTful backend application for banking application demonstration)
+  (Бэкенд-приложение электронной коммерции для демонстрации банковского приложения)
   * Rust (Actix-web)
   * PostgreSQL
 
-- **2022** - Application for medical big data visualization
+- **2022** - Приложение для визуализации медицинских больших данных
   * Ruby (RubyXL)
 
-## Teaching activities
+## Преподавательская деятельность
 
-- **2023** - Teaching assistantship on a Data Structures and Algorithms course at [MathsHub](https://maths-h.com/) - online academy
+- **2023** - Помощник преподавателя на курсе "алгоритмы и структуры данных" в [MathsHub](https://maths-h.com/) - онлайн-академии
 
-## Languages
+## Языки
 
-**English:** TOEFL 90/120  
-**Russian:** native.
+**Английский:** TOEFL 90/120 - upper intermediate
 
-### Learning Projects
+### Личные проекты
 
-- **Steganographic** system employing LSB method
-  + Languages: C#, Rust
-  + Features: Support for PNG, bitmap images
-- Internet provider call center **database** (**PostgreSQL**)
-  + Languages: Rust, SQL
-  + User interface - [Iced](https://iced.rs)
-- **Parser** for an abstract pascal-like language
-  + Language: Rust
-- **AI telegram bot** for spam recognition;
-  + Language: Python
+- **[Problem of 13](https://github.com/LiGM-GH/problem_of_13)** - Поиск и реализация наиболее производительного алгоритма поиска  первых K чисел, сумма цифр которых равна M.
+
+### Учебные проекты
+
+- **Стеганографическая** система, использующая метод LSB
+  + Языки: C#, Rust
+  + Функции: Поддержка изображений в форматах PNG, bitmap
+- **Система управления базой данных** колл-центра интернет-провайдера (**PostgreSQL**)
+  + Языки: Rust, SQL
+  + Пользовательский интерфейс - [Iced](https://iced.rs)
+- **Парсер** для абстрактного языка с Паскаль-подобным синтаксисом
+  + Язык: Rust
+- **Телеграм-бот с искусственным интеллектом** для распознавания спама;
+  + Язык: Python
   + Tensorflow
-- **Numeric computation** of solution for initial-boundary value problem for the two-dimensional wave equation
-  + language: Python
+- **Численное решение** начально-краевой задачи для двумерного уравнения колебаний
+  + Язык: Python
   + NumPy
-- Simple **porting** of a prolog and lisp **IDE** from Windows to linux
-- **Translator** of Pascal comments to XLSX tables
-  + Language: Ruby
-- **Lookup program for text** search in **PDF** lections (no OCR)
-  + Language: Rust
-- **Lookup script for text** search in **PDF** lections (no OCR)
-  + Language: nushell
+- Простое **портирование** **IDE** для языков prolog и lisp с Windows на linux
+- **Транслятор** в XLSX-таблицы специального вида комментариев в программах на языке Паскаль
+  + Язык: Ruby
+- **Программа для поиска текста** в **PDF**-файлах (без OCR)
+  + Язык: Rust
+- **Сценарий командной строки для поиска текста**в **PDF**-файлах (без OCR)
+  + Язык: nushell
   + FZF
 
