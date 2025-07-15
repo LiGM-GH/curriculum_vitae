@@ -15,7 +15,7 @@ GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
 ## Education
 
-**2021 - present** - bachelor's in Moscow Power Engineering Institute [MPEI](https://mpei.ru), Computer Engineering and Computer Science Department, applied maths and CS
+**2021 - 2025** - bachelor's in Moscow Power Engineering Institute [MPEI](https://mpei.ru), Computer Engineering and Computer Science Department, applied maths and CS
 
 ## Skills
 
@@ -27,6 +27,8 @@ GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
 ## Professional activities
 
+- **2025**
+  + **Authentication via static handwritten signature** - bachelor's project
 - **2024**
   + **Telecommunication** software modules development
     </br>
@@ -65,6 +67,10 @@ GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
 **English:** TOEFL 90/120  
 **Russian:** native.
+
+### Side projects
+
+- **[Problem of 13](https://github.com/LiGM-GH/problem_of_13)** - writing the most performant realization of algorithm of finding the first K numbers that sum up to M.
 
 ### Learning Projects
 
