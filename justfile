@@ -1,6 +1,8 @@
 name := "LipkinGM_CV"
 main_md := name + ".md"
+main_css := "style.css"
 main_pdf := name + "-md.pdf"
+main_odt := name + ".odt"
 polling_interval := "500ms"
 stylefile := "style.css"
 
@@ -18,7 +20,7 @@ run:
 
 # Watch and update PDF file according to {{main_md}}
 watch:
-    watchexec --poll {{polling_interval}} -w ./{{main_md}} 'just update'
+    watchexec --poll {{polling_interval}} -w ./{{main_md}} -w ./{{main_css}} 'just update'
 
 # Update current PDF using {{main_md}}
 update:
@@ -26,4 +28,4 @@ update:
 
 # Convert {{main_md}} to ODT
 to-odt:
-    pandoc -f markdown -t odt {{main_md}} -o ./LipkinGM_CV.odt
+    pandoc -f markdown -t odt {{main_md}} -o {{main_odt}} --css {{stylefile}}
