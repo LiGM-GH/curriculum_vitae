@@ -15,7 +15,7 @@ view:
 
 # Convert {{main_md}} to PDF and do XDG-open
 run:
-    md2pdf {{main_md}} {{main_pdf}} --css {{stylefile}}
+    md2pdf {{main_md}} {{main_pdf}}
     xdg-open {{main_pdf}}
 
 # Watch and update PDF file according to {{main_md}}
@@ -24,8 +24,4 @@ watch:
 
 # Update current PDF using {{main_md}}
 update:
-    md2pdf {{main_md}} {{main_pdf}} --css {{stylefile}}
-
-# Convert {{main_md}} to ODT
-to-odt:
-    pandoc -f markdown -t odt {{main_md}} -o {{main_odt}} --css {{stylefile}}
+    md2pdf {{main_md}} {{main_pdf}}

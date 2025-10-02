@@ -2,6 +2,10 @@
     margin: 10pt 20pt 5pt 20pt;
 }
 
+:root {
+    --font-size-p: 9pt;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +19,7 @@ h1 {
 
 h2 {
     margin: 0;
-    padding: 10pt 0 0 0;
+    padding: 10pt 0 10pt 0;
     font-size: 14pt;
 }
 
@@ -29,35 +33,41 @@ p {
     margin: 0;
     padding: 0;
     text-align: justify;
-    font-size: 11pt;
+    font-size: var(--font-size-p);
 }
 
 ul {
-    margin: 0 0 0 0;
+    margin: 0 0 0 0.3em;
     padding: 0;
 }
 
 li {
-    margin: 0 0 0 10pt;
+    margin: 0 0 0.5em 0.1em;
     padding: 0;
+    font-size: var(--font-size-p);
 }
 
 table {
     margin: 0;
-    padding: 0 0 0pt 0;
+    padding: 0 0 0 0;
     width: 100%;
+    font-size: var(--font-size-p);
 }
 
 td {
     margin: 0;
-    padding: 0;
-    border-left: 1px solid;
-    border-bottom: 1px solid;
+    padding: 0.1em;
+    border-left: 2px solid;
+    border-bottom: 0px solid;
+    border-color: #000066;
+    text-align: justify;
 }
 
 th {
     margin: 0;
     padding: 0;
     border-left: 1px solid;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
+    border-color: transparent;
+    background-color: #D6D6D6;
 }
