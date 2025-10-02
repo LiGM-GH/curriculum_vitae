@@ -3,6 +3,7 @@ main_md := name + ".md"
 main_css := "style.css"
 main_pdf := name + "-md.pdf"
 main_odt := name + ".odt"
+main_html := name + ".html"
 polling_interval := "500ms"
 stylefile := "style.css"
 
@@ -25,3 +26,6 @@ watch:
 # Update current PDF using {{main_md}}
 update:
     md2pdf {{main_md}} {{main_pdf}}
+
+to-html:
+    pandoc -f markdown -t html {{main_md}} -o {{main_html}}
