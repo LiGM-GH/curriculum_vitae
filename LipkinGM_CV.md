@@ -6,7 +6,7 @@
 
 E-mail: [lipkin.gregory@ya.ru](mailto:lipkin.gregory@ya.ru)
 
-Phone: `+7 (915) 335-5155`
+Phone: `+7 (915) 335 51-55`
 
 GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
