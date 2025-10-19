@@ -4,6 +4,7 @@
 
 :root {
     --font-size-p: 9pt;
+    --font-size-table: 9pt;
 }
 
 body {
@@ -29,6 +30,12 @@ h3 {
     font-size: 13pt;
 }
 
+h4 {
+    margin: 0;
+    padding: 20pt 0 0 0;
+    font-size: 11pt;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -51,7 +58,7 @@ table {
     margin: 0;
     padding: 0 0 0 0;
     width: 100%;
-    font-size: var(--font-size-p);
+    font-size: var(--font-size-table);
     table-layout: auto;
     white-space: nowrap;
 }
@@ -61,7 +68,7 @@ td {
     padding: 0.1em;
     border-left: 2px solid;
     border-bottom: 0px solid;
-    border-color: #000066;
+    border-color: #000000;
     text-align: justify;
 }
 
@@ -97,7 +104,7 @@ th {
         margin: 0;
         padding: 0 0 0 0;
         width: 100%;
-        font-size: var(--font-size-p);
+        font-size: var(--font-size-table);
         table-layout: auto;
         white-space: nowrap;
     }
