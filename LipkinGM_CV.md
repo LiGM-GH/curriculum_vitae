@@ -1,99 +1,81 @@
-# Grigorii Lipkin
+<link href="style.css" rel="stylesheet">
 
-E-mail: lipkin.grisha@mail.ru  
-Phone: +7 (915) 335-5155  
+# Григорий Липкин
+
+## Контактные данные
+
+E-mail: [lipkin.gregory@ya.ru](mailto:lipkin.gregory@ya.ru)
+
+Phone: `+7 (915) 335 51-55`
+
 GitHub: [https://github.com/LiGM-GH](https://github.com/LiGM-GH)
 
-## Scientific Interests
+## Образование
 
-- Building high performance software
-- Data security
-- Data types
-- Operating systems
-- Compilers
-- Building AI models
+- **2021 - 2025** - Бакалавриат в Московском Энергетическом Институте ([МЭИ](https://mpei.ru/)),
+  прикладная математика и информатика,
+  информатики и вычислительной техники институт (ИВТИ)
+- **2025 по настоящее время** - Магистратура в Московском Политехническом Университете ([МПУ](https://mospolytech.ru))
 
-## Education
+Языки: **Английский:** TOEFL 90/120 - upper intermediate
 
-**2021 - 2025** - bachelor's in Moscow Power Engineering Institute [MPEI](https://mpei.ru), Computer Engineering and Computer Science Department, applied maths and CS
+## Технологии и языки программирования
 
-## Skills
+| Технология | Описание                                                                                   |
+| ---        | ---                                                                                        |
+| Debian 12  | Установка, настройка, установка модулей ядра для работы с телекоммуникационной платой      |
+| WinAPI     | Использование на C++: создание окон, сообщения, определение свойств системы                |
+| PostgreSQL | Создание структуры базы данных, запросы средней сложности, хранимые процедуры, репликация. |
 
-- **Debian 12** professional usage on a server
-- **WinAPI** usage experience in C++
-- **PostgreSQL** database management
+| Язык   | Описание                                                    | LoC (approx) |
+| ---    | ---                                                         | ---          |
+| Rust   | Основное средство последние 2.5 года                        | 20000        |
+| Python | Использовался в качестве второго основного последние 4 года | 12000        |
+| C/C++  | Использовался в течение разработки библиотек для DAHDI      | 4000         |
+| Ruby   | Использовался первые 1.5 курса в качестве основного         | 3000         |
+| BASH   | Конфигурация Debian, простые скрипты                        | 700          |
 
-**Knowledge of programming languages**: Rust, Python, Ruby, C, C++, Java, BASH, C#, Lua, javascript, nushell, Pascal, MS MASM, Lisp.
+## Опыт
 
-## Professional activities
+- **Май 2024 - сентябрь 2025**, 66000 LOC, используется по настоящее время)
 
-- **2025**
-  + **Authentication via static handwritten signature** - bachelor's project
-- **2024**
-  + **Telecommunication** software modules development
-    </br>
-    for **audio conferencing** and IVR system
-    </br>
-    based on **Asterisk DAHDI** libraries for **multiport T1/E1 board**.
-    </br>
-    Libraries for DACS, conferences, media record and playback. 
-    </br>
-    * Language: C/C++
+  *Разработка **телекоммуникационных** программных модулей* для
+  **аудио-конференций** на базе библиотек **Asterisk DAHDI** для
+  **многопортовой платы T1/E1** . Разработка библиотек для DACS,
+  конференций, записи и проигрывания аудио.
 
-  + Renaissance Bank practice
-    </br>
-    (**Image recognition** for harmful images detection purposes)
-    * [Backend](https://github.com/LiGM-GH/ren_java_backend)
-      - Java (Spring)
-      - Ubuntu
-    * [library & daemon (Rust)](https://github.com/LiGM-GH/nsfw_java_adapter)
-      - Rust
-      - Ubuntu
+  + Стек: C/C++, Debian 12
 
-- **2023** - Renton Hackathon
-  </br>
-  (E-commerce RESTful backend application for banking application demonstration)
-  * Rust (Actix-web)
-  * PostgreSQL
+- **2024,** июнь-июль, банк **Ренессанс Кредит, практикант.**
 
-- **2022** - Application for medical big data visualization
-  * Ruby (RubyXL)
+  Практика по созданию системы проверки изображений от пользователей
+  для печати на карте на соответствие нормам (фильтрация NSFW-контента).
+  Разработал backend (сервис, библиотека и демон), Java (Spring), Rust.
+  Разработка в составе команды из трёх человек,
+  два члена команды занимались разработкой фронтенда.
+  Всего 2000 LOC, получена оценка "**отлично**".
 
-## Teaching activities
+  + Стек: Java (Spring), Rust, Ubuntu
 
-- **2023** - Teaching assistantship on a Data Structures and Algorithms course at [MathsHub](https://maths-h.com/) - online academy
+- **2023** **Renton Hackathon** (24 полных часа) в составе команды из трёх человек.
 
-## Languages
+  Разработка бэкенд-приложения электронной коммерции для демонстрации
+  банковского приложения.
 
-**English:** TOEFL 90/120  
-**Russian:** native.
+  + Стек: Rust (Actix-web), PostgreSQL, Ubuntu
 
-### Side projects
+- **2023** (август-сентябрь) - Помощник преподавателя на курсе "алгоритмы и структуры данных"
+  в [MathsHub](https://maths-h.com/) - онлайн-академии
 
-- **[Problem of 13](https://github.com/LiGM-GH/problem_of_13)** - writing the most performant realization of algorithm of finding the first K numbers that sum up to M.
+- **2022** - Приложение для анализа медицинских больших данных.
 
-### Learning Projects
+  По запросу одного из преподавателей анализировалась таблица на \~ 2000 строк,
+  вычислялись частоты событий и строились графики.
 
-- **Steganographic** system employing LSB method
-  + Languages: C#, Rust
-  + Features: Support for PNG, bitmap images
-- Internet provider call center **database** (**PostgreSQL**)
-  + Languages: Rust, SQL
-  + User interface - [Iced](https://iced.rs)
-- **Parser** for an abstract pascal-like language
-  + Language: Rust
-- **AI telegram bot** for spam recognition;
-  + Language: Python
-  + Tensorflow
-- **Numeric computation** of solution for initial-boundary value problem for the two-dimensional wave equation
-  + language: Python
-  + NumPy
-- Simple **porting** of a prolog and lisp **IDE** from Windows to linux
-- **Translator** of Pascal comments to XLSX tables
-  + Language: Ruby
-- **Lookup program for text** search in **PDF** lections (no OCR)
-  + Language: Rust
-- **Lookup script for text** search in **PDF** lections (no OCR)
-  + Language: nushell
-  + FZF
+  + Стек: язык Ruby (библиотека RubyXL)
 
+## Личные качества
+
+- Открытый
+- Надёжный
+- Ответственный
