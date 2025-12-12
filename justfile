@@ -1,11 +1,6 @@
 name := "LipkinGM_CV"
-main_md := name + ".md"
-main_css := "style.css"
 main_pdf := name + "-md.pdf"
-main_odt := name + ".odt"
-main_html := name + ".html"
-polling_interval := "500ms"
-stylefile := "style.css"
+main_typ := name + ".typ"
 
 default:
     just --list
@@ -14,18 +9,12 @@ default:
 view:
     xdg-open {{main_pdf}}
 
-# Convert {{main_md}} to PDF and do XDG-open
-run:
-    md2pdf {{main_md}} {{main_pdf}}
+# Convert {{main_typ}} to PDF and do XDG-open
+run: update
     xdg-open {{main_pdf}}
 
-# Watch and update PDF file according to {{main_md}}
 watch:
-    watchexec --poll {{polling_interval}} -w ./{{main_md}} -w ./{{main_css}} 'just update'
+    typst watch {{main_typ}} {{main_pdf}}
 
-# Update current PDF using {{main_md}}
 update:
-    md2pdf {{main_md}} {{main_pdf}}
-
-to-html:
-    pandoc -f markdown -t html {{main_md}} -o {{main_html}}
+    typst compile -f pdf ./{{main_typ}} ./{{main_pdf}}
