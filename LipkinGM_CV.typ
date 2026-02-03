@@ -1,5 +1,12 @@
-#set text(lang: "ru", font: "Times New Roman")
-#let lightgrey = rgb("e4e5ea")
+#let textcolor = blue.darken(60%)
+#let textsize = 9pt
+#set page(paper: "a4", margin: (x: 17mm, y: 17mm))
+#set par(first-line-indent: (all: true, amount: 1.5em))
+#set text(lang: "ru", font: "Times New Roman", size: textsize, fill: textcolor)
+#let lightgray = black.lighten(90%)
+
+#show strong: set text(fill: black)
+#show link: it => underline(text(fill: blue, it))
 
 #show heading.where(level: 1): it => {
   set align(center)
@@ -7,47 +14,25 @@
   it
 }
 
-#show columns: it => {
-  set par(
-    hanging-indent: 1.5em,
-    justify: true,
-    spacing: 1.5em,
-    first-line-indent: (all: false, amount: 0pt),
-  )
-
-  it
-}
-
 #show heading.where(level: 2): it => {
-  show table.cell: it => {
-    set text(12pt)
-    it
-  }
   [
-    #v(0.2em)
-    #table(
-      align: center,
+    #grid(
       columns: (1fr, auto, 1fr),
-      stroke: none,
-      gutter: 5pt,
-      inset: 0pt,
+      align: horizon + center,
+      fill: none,
+      gutter: 0.5em,
+      inset: 0em,
 
-      line(length: 100%, start: (0%, 5pt)),
-      box(width: auto, it),
-      line(length: 100%, start: (0%, 5pt)),
+      line(length: 100%), box(width: auto, it), line(length: 100%),
     )
-    #v(0.5em)
   ]
 }
 
-#set text(10pt)
-#set page(paper: "a4", margin: (x: 17mm, y: 17mm))
-#set par(first-line-indent: (all: true, amount: 1.5em))
-#show link: it => underline(text(fill: blue, it))
 #set grid(
-  fill: lightgrey,
-  gutter: 4pt,
+  fill: lightgray,
+  gutter: 0.5em,
   inset: 0.5em,
+  align: left,
 )
 
 #show grid: it => {
@@ -55,23 +40,19 @@
   it
 }
 
-#set table(inset: 3pt)
+#set table(inset: 0.3em, stroke: stroke(paint: lightgray.darken(20%)))
 
-#show table: it => {
-  set text(size: 8pt)
-  set align(center)
-  it
-}
+#show table: set align(center)
 
 = Григорий Липкин
 
 == Контактные данные
 
-#align(center, box(fill: lightgrey, inset: 0.5em, align(left)[
+#align(center, grid[
   Email: #link("mailto:lipkin.gregory@ya.ru", "lipkin.gregory@ya.ru") \
   Телефон: `+7 (915) 335 51-55` \
   GitHub: https://github.com/LiGM-GH
-]))
+])
 
 == Образование
 
@@ -99,7 +80,6 @@
   columns: (1fr, 1fr),
   [*Русский* - родной], [ *Английский* - upper intermediate (TOEFL 90/120) ],
 )
-
 
 == Опыт
 
@@ -133,12 +113,12 @@
 
   [
     *Май 2023*: *Renton Hackathon* (24 полных часа). \
-    Разработка бэкенд-приложения электронной коммерции в составе команды из трёх человек для демонстрации банковского приложения. \
+    Разработка *бэкенд-приложения* электронной коммерции в составе команды из трёх человек для демонстрации банковского приложения. \
     Стек: Rust (Actix-web), PostgreSQL, Ubuntu
   ],
 
   [
-    *Август-сентябрь 2023*: Помощник преподавателя на курсе "алгоритмы и структуры данных"
+    *Август-сентябрь 2023*: Помощник преподавателя на курсе *"Алгоритмы и структуры данных"*
     в #link("https://maths-h.com/")[MathsHub] - онлайн-академии. \
     Стек: Python
   ],
@@ -166,7 +146,7 @@
   [ Rust ], [ Основное средство последние 2.5 года ], [ 20000 ],
   [ Python ],
   [ Использовался в качестве второго основного последние 4 года ],
-  [ 15000 ],
+  [ 17000 ],
 
   [ C/C++ ],
   [ Использовался в течение разработки библиотек для DAHDI ],
