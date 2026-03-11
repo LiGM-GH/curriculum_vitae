@@ -2,7 +2,7 @@
 
 ## Контактные данные
 
-  Email: #link("mailto:lipkin.gregory@ya.ru", "lipkin.gregory@ya.ru") \
+  Email: ["lipkin.gregory@ya.ru"](mailto:lipkin.gregory@ya.ru) \
   Телефон: `+7 (915) 335 51-55` \
   GitHub: https://github.com/LiGM-GH
 
